@@ -2,7 +2,10 @@
 <html>
     <head>
         <title>구글 로그인</title>
+        <link href="./practice.css" rel="stylesheet", type="text/css">
 
+        <script type="text/javascript" src="./add_two_number.js">        </script>
+        <script type="text/javascript" src="./whatTimeisit.js">        </script>
     </head>
     <body>
         <nav>
@@ -14,8 +17,17 @@
         <h1>헤드라인</h1>
         <h6>소제목</h6>
 
+        <button onclick="whatTimeisit()">현재시각</button>
+        <br/>
+        
+        <label for="inputA">a</label>
+        <input id="inputA" value="1" onkeyup="doSomething()">
+
+        <label for="inputB">b</label>
+        <input id="inputB" value="2" onkeyup="doSomething()">
+
         <p>
-            패러그래프
+            <span id="valueA">1</span> + <span id="valueB">2</span> = <span id="valueC">3</span> 입니다
         </p>
         <a href="www.google.com">구글</a>
 
